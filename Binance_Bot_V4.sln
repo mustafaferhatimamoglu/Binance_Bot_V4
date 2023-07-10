@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Binance_Bot_V4", "Binance_Bot_V4.csproj", "{377A9BD9-089B-42C4-AE74-2B11D7E097E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common_CA", "..\Common_CA\Common_CA.csproj", "{EEF3D239-46DC-405B-B8F3-00B55646D10C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{377A9BD9-089B-42C4-AE74-2B11D7E097E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{377A9BD9-089B-42C4-AE74-2B11D7E097E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{377A9BD9-089B-42C4-AE74-2B11D7E097E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{377A9BD9-089B-42C4-AE74-2B11D7E097E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEF3D239-46DC-405B-B8F3-00B55646D10C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEF3D239-46DC-405B-B8F3-00B55646D10C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEF3D239-46DC-405B-B8F3-00B55646D10C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEF3D239-46DC-405B-B8F3-00B55646D10C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {499FB87E-BDAB-4196-B321-9D501B456FC8}
+	EndGlobalSection
+EndGlobal
