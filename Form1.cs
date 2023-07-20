@@ -7,17 +7,6 @@ namespace Binance_Bot_V4
         public Form1()
         {
             InitializeComponent();
-            //var task = AllCoins();
-            //while (task.Status == AllCoins.Completed) ;
-            //var result = Task.Run(async () => await AllCoins()).Result;
-            //var b1 = new 
-            //var asd = new Common_CA.Database();
-            //var asd2 = Common_CA.Database.
-
-            //AllCoins();
-            //object value = await Run(() => AllCoins());
-
-            //var result = Task.Run(async () => await AllCoins()).Result;
             AllCoins();
         }
 
@@ -32,15 +21,8 @@ namespace Binance_Bot_V4
         {
             BackgroundWorker Bgw = new BackgroundWorker();
             Bgw.DoWork += new System.ComponentModel.DoWorkEventHandler(
-                //Common_CA.Binance.Create_Coin("BTCUSDT"));
-                //Common_CA.Binance.Create_Coin(coin));
                 BGW_Work);
-            //Bgw.RunWorkerCompleted += new RunWorkerCompletedEventHandler(BGW_Completed);
             Bgw.RunWorkerAsync(coin);
-            
-
-            //Bgw.RunWorkerCompleted(BGW_Completed);
-            //Bgw.RunWorkerCompleted += BGW_Completed();
         }
 
 
@@ -56,14 +38,5 @@ namespace Binance_Bot_V4
 #pragma warning restore CS8602 // Dereference of a possibly null reference.
         }
 
-        //private RunWorkerCompletedEventHandler? BGW_Completed()
-        //{
-        //    //throw new NotImplementedException();
-        //    return null;
-        //}
-        //private void BGW_Completed(object sender, RunWorkerCompletedEventArgs e)
-        //{ 
-        
-        //}
     }
 }
