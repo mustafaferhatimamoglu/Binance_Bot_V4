@@ -21,7 +21,7 @@ namespace Binance_Bot_V4.Strategies
             return ema;
         }
 
-        public static double CalculateSMA(double[] data, int period)
+        static double CalculateSMA(double[] data, int period)
         {
             double sum = 0.0;
             for (int i = 0; i < period; i++)
